@@ -1,0 +1,17 @@
+Java HotSpot(TM) 64-Bit Server VM (25.201-b09) for linux-amd64 JRE (1.8.0_201-b09), built on Dec 15 2018 11:35:59 by "java_re" with gcc 7.3.0
+Memory: 4k page, physical 2006244k(1334768k free), swap 2070524k(1794288k free)
+CommandLine flags: -XX:+AlwaysPreTouch -XX:CMSInitiatingOccupancyFraction=75 -XX:ErrorFile=logs/hs_err_pid%p.log -XX:GCLogFileSize=67108864 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=data -XX:InitialHeapSize=1073741824 -XX:MaxHeapSize=1073741824 -XX:MaxNewSize=174485504 -XX:MaxTenuringThreshold=6 -XX:NewSize=174485504 -XX:NumberOfGCLogFiles=32 -XX:OldPLABSize=16 -XX:OldSize=348971008 -XX:-OmitStackTraceInFastThrow -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintTenuringDistribution -XX:ThreadStackSize=1024 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseGCLogFileRotation -XX:+UseParNewGC 
+2019-06-02T12:05:00.667+0800: 0.213: Total time for which application threads were stopped: 0.0001078 seconds, Stopping threads took: 0.0000483 seconds
+2019-06-02T12:05:00.703+0800: 0.250: Total time for which application threads were stopped: 0.0001101 seconds, Stopping threads took: 0.0000357 seconds
+2019-06-02T12:05:00.752+0800: 0.298: Total time for which application threads were stopped: 0.0001329 seconds, Stopping threads took: 0.0000589 seconds
+2019-06-02T12:05:00.826+0800: 0.372: Total time for which application threads were stopped: 0.0001256 seconds, Stopping threads took: 0.0000414 seconds
+2019-06-02T12:05:01.337+0800: 0.883: Total time for which application threads were stopped: 0.0002803 seconds, Stopping threads took: 0.0001090 seconds
+2019-06-02T12:05:01.521+0800: 1.068: Total time for which application threads were stopped: 0.0004136 seconds, Stopping threads took: 0.0001273 seconds
+Heap
+ par new generation   total 153344K, used 57358K [0x00000000c0000000, 0x00000000ca660000, 0x00000000ca660000)
+  eden space 136320K,  42% used [0x00000000c0000000, 0x00000000c38038e8, 0x00000000c8520000)
+  from space 17024K,   0% used [0x00000000c8520000, 0x00000000c8520000, 0x00000000c95c0000)
+  to   space 17024K,   0% used [0x00000000c95c0000, 0x00000000c95c0000, 0x00000000ca660000)
+ concurrent mark-sweep generation total 878208K, used 0K [0x00000000ca660000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 13122K, capacity 13586K, committed 13696K, reserved 1060864K
+  class space    used 1704K, capacity 1911K, committed 1920K, reserved 1048576K
